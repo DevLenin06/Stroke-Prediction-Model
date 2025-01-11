@@ -74,7 +74,6 @@ The model performed moderately well, with an emphasis on recall. Since identifyi
 ## Future Work
 - Experiment with more advanced models like Random Forest, XGBoost, or Neural Networks.
 - Include additional health-related features if available.
-- Perform hyperparameter tuning to improve the model’s performance.
 - Explore other data balancing methods for better results.
 
 ## How to Use This Project
