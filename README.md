@@ -1,5 +1,4 @@
 # Stroke Prediction Model
- # Stroke Prediction Using Logistic Regression
 
 ## Overview
 This project focuses on predicting the likelihood of a stroke based on various demographic and health-related factors, such as age, gender, smoking habits, and BMI. Using machine learning techniques, specifically Logistic Regression, I aimed to identify individuals at a higher risk of experiencing a stroke. The process was done with data cleaning, exploration, and model evaluation to ensure reliable results.
