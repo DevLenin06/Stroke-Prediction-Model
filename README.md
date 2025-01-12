@@ -23,7 +23,7 @@ The dataset contains 5110 entries with 12 features, including:
 - Features: 12
 - Missing values:
   - BMI: 201 missing values (handled by imputing the mean)
-- Imbalance: Only 4.87% of the data represents stroke cases, requiring us to address the imbalance with oversampling techniques.
+- Imbalance: Only 4.87% of the data represents stroke cases. Therefore, I was required to address the imbalance with oversampling techniques.
 
 ## Tools and Libraries Used
 - **Python Libraries:**
@@ -43,10 +43,10 @@ The dataset contains 5110 entries with 12 features, including:
 ### 2. Exploratory Data Analysis (EDA)
 - Visualized age distributions and their relationship with strokes.
 - Analyzed stroke proportions by gender and other features.
-- Highlighted the imbalance in the dataset, showing the need for oversampling.
+- Highlighted the imbalance in the dataset. This explain the the need for oversampling.
 
 ### 3. Balancing the Data
-To address the class imbalance, we used SMOTE (Synthetic Minority Oversampling Technique). This created a balanced training set, ensuring equal representation of stroke and non-stroke cases.
+To address the class imbalance, I used SMOTE (Synthetic Minority Oversampling Technique). This created a balanced training set and ensured equal representation of stroke and non-stroke cases.
 
 ### 4. Building the Model
 - **Model:** Logistic Regression
@@ -56,7 +56,7 @@ To address the class imbalance, we used SMOTE (Synthetic Minority Oversampling T
 - Trained the model and validated it using cross-validation.
 
 ### 5. Evaluating the Model
-We assessed the model using the following metrics:
+I assessed the model using the following metrics:
 - **Cross-validation score:** 79.06%
 - **Precision:** 16.49%
 - **Recall:** 75.81%
@@ -64,7 +64,7 @@ We assessed the model using the following metrics:
 - **Confusion Matrix:** To evaluate true positives, false positives, true negatives, and false negatives.
 
 ## Key Results
-The model performed moderately well, with an emphasis on recall. Since identifying stroke cases is critical, recall was prioritized to reduce false negatives.
+The model performed moderately well and has an emphasis on recall. Since identifying stroke cases is the goal, recall was prioritized to reduce false negatives.
 
 ## Visualizations
 - Distribution of age for stroke vs. non-stroke cases.
@@ -72,7 +72,7 @@ The model performed moderately well, with an emphasis on recall. Since identifyi
 - ROC and Precision-Recall curves.
 
 ## Future Work
-- Experiment with more advanced models like Random Forest, XGBoost, or Neural Networks.
+- Experiment with more advanced models like Random Forest or Neural Networks.
 - Include additional health-related features if available.
 - Explore other data balancing methods for better results.
 
@@ -90,7 +90,7 @@ The model performed moderately well, with an emphasis on recall. Since identifyi
 ```
 project-folder/
 |—— stroke.csv         # Dataset
-|—— stroke_analysis.py # Python script
+|—— Stroke_Prediction_Model.ipynb # Python script
 |—— README.md         # Documentation
 ```
 
