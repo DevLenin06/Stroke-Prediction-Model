@@ -80,10 +80,10 @@ The model performed moderately well and has an emphasis on recall. Since identif
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
    ```
-2. **Run the Script:**
-   Make sure the dataset (`stroke.csv`) is in the same directory as the script. Execute the script to train the model and view results.
-3. **View Visualizations:**
-   The script generates helpful plots for understanding the data and evaluating the model.
+2. **Download the Dataset:**
+   Make sure the dataset (`stroke.csv`) is in the same directory as the notebook. 
+3. **Run the Jupyter Notebook:**
+   Open the Jupyter Notebook `Stroke_Prediction_Model.ipynb` in Jupyter Notebook, JupyterLab, Visual Studio Code or any compatible environment that support ipynb files.
 
 ## File Structure
 ```
@@ -94,6 +94,6 @@ project-folder/
 ```
 
 ## Conclusion
-This project demonstrates how Logistic Regression can be used to predict health outcomes like strokes. With proper preprocessing and handling of class imbalance, the model achieved a balance between precision and recall. While there’s room for improvement, the project lays a solid foundation for further exploration in stroke prediction.
+This project demonstrates how Logistic Regression can be used to predict health outcomes like strokes. With proper preprocessing and handling of class imbalance, the model achieved a balance between precision and recall. While there’s room for improvement, this project lays a solid foundation for further exploration in stroke prediction.
 
 
